@@ -305,7 +305,7 @@ $tmpInput = @'
 
 '@ 
 $dataSourceGuid_0 = [PSCustomObject]@{} 
-Invoke-HelloIDDatasource -DatasourceName "AD-user-generate-table-report-failed-logons" -DatasourceType "4" -DatasourceInput $tmpInput -DatasourcePsScript -$tmpPsScript -DatasourceModel $tmpModel -returnObject ([Ref]$dataSourceGuid_0) 
+Invoke-HelloIDDatasource -DatasourceName "AD-user-generate-table-report-failed-logons" -DatasourceType "4" -DatasourceInput $tmpInput -DatasourcePsScript $tmpPsScript -DatasourceModel $tmpModel -returnObject ([Ref]$dataSourceGuid_0) 
 <# End: DataSource "AD-user-generate-table-report-failed-logons" #>
 <# End: HelloID Data sources #>
 
